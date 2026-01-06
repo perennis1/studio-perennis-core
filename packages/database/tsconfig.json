@@ -1,0 +1,12 @@
+// packages/database/tsconfig.json - REPLACE WITH:
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "declaration": true,
+    "rootDir": "src",
+    "composite": true
+  },
+  "include": ["src/**/*", "prisma/schema.prisma"],
+  "exclude": ["node_modules", "dist", "**/*.test.ts"]
+}

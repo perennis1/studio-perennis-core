@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Comment" ADD COLUMN     "likeCount" INTEGER NOT NULL DEFAULT 0,
+ADD COLUMN     "pinned" BOOLEAN NOT NULL DEFAULT false;

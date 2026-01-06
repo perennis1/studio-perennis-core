@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Lesson" ADD COLUMN     "bookmarksCount" INTEGER NOT NULL DEFAULT 0,
+ADD COLUMN     "likesCount" INTEGER NOT NULL DEFAULT 0;
